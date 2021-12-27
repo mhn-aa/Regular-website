@@ -1,9 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./Saeed.css";
 
 const Saeed = () => {
   return (
-    <div>
+    <div className="saeed">
       <Link to="/">Home</Link>
       <h1>This is Saeed's page</h1>
     </div>
