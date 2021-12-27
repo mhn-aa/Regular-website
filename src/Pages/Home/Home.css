@@ -1,0 +1,17 @@
+.home {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: gainsboro;
+}
+
+.home__container {
+}
+
+.home__links {
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+}
