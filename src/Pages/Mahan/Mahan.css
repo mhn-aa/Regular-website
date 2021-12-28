@@ -1,3 +1,57 @@
 .mahan {
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
   text-align: center;
+}
+.mahanprofilepic {
+  /* margin-right: 1000px; */
+  margin-top: 30px;
+  height: 180px;
+  border-radius: 50%;
+}
+
+.aboutmahan {
+  background-color: gold;
+  border-radius: 30px;
+  margin-top: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+  border: 5px solid gold;
+}
+.aboutmahan > h2 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: royalblue;
+}
+
+.aboutmahan > p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: navy;
+}
+
+.skillsmahan {
+  display: flex;
+  justify-content: space-around;
+}
+
+.html {
+  height: 50px;
+}
+
+.css {
+  height: 50px;
+}
+
+.js {
+  height: 50px;
+}
+
+.python {
+  height: 50px;
+}
+
+.react {
+  height: 50px;
 }
