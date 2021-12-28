@@ -6,20 +6,29 @@ const Sirvan = () => {
   return (
     <div className="sirvan">
       <Link to="/">Home</Link>
-      <h1>This is Sirvan's page</h1>
 
-      <section className="navbar">
+      <section className="left_pane">
+        <li></li>
         <li>
-          <Link to="/">Home</Link>
+          <img
+            src="https://i.ibb.co/Yt2hrYJ/IMG-4695.jpg"
+            alt="IMG-4695"
+            border="0"
+          ></img>
         </li>
         <li>
-          <Link to="./profile">Profile</Link>
+          <h3>Skills:</h3>{" "}
+          <p>
+            HTML,CSS,JavaScript, Ruby on Rails and currently diving into React
+            JS{" "}
+          </p>
         </li>
         <li>
-          <Link to="/skills">Skills</Link>
-        </li>
-        <li>
-          <Link to="/about">About me</Link>
+          <h3>About me: </h3>{" "}
+          <p>
+            I am a self driven independent junior web developer who tends to
+            enjoy the most implementing ideas from scratch right into browsers.
+          </p>
         </li>
       </section>
     </div>
