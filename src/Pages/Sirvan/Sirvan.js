@@ -8,7 +8,7 @@ const Sirvan = () => {
       <Link to="/">Home</Link>
       <section className="left_pane">
         <li></li>
-        <li>
+        <li className="sirvan_img">
           <img
             src="https://i.ibb.co/Yt2hrYJ/IMG-4695.jpg"
             alt="IMG-4695"
