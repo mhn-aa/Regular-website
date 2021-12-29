@@ -4,6 +4,7 @@ import Home from "./Pages/Home/Home";
 import Mahan from "./Pages/Mahan/Mahan";
 import Sirvan from "./Pages/Sirvan/Sirvan";
 import Saeed from "./Pages/Saeed/Saeed";
+import Ehsan from "./Pages/Ehsan/Ehsan";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="mahan" element={<Mahan />} />
         <Route path="sirvan" element={<Sirvan />} />
         <Route path="saeed" element={<Saeed />} />
+        <Route path="ehsan" element={<Ehsan />} />
       </Routes>
     </div>
   );
