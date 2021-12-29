@@ -16,7 +16,6 @@ const Sirvan = () => {
           ></img>
         </li>
         <li>
-          <h2>Testing </h2>
           <h3>Skills:</h3>{" "}
           <p>
             HTML,CSS,JavaScript, Ruby on Rails and currently diving into React
