@@ -1,7 +1,7 @@
 .saeed {
   height: 100vh;
   position: relative;
-  animation: saeed-bg-change infinite 20s linear;
+  animation: saeed-bg-change infinite 30s linear;
 }
 
 .saeed__link {
@@ -24,7 +24,7 @@
 .saeed__container > img {
   border-radius: 50%;
   height: 200px;
-  animation: saeed-logo-spin infinite 20s linear;
+  animation: saeed-logo-spin infinite 30s linear;
 }
 
 /* Color Boxes */
@@ -60,39 +60,16 @@
   width: 83px;
   height: 83px;
   border-radius: 50%;
-  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+.saeed__colorBox > img {
+  width: 50px;
+  height: 50px;
 }
 
-.saeed_color1 {
-  background-color: lightcyan;
-}
-.saeed_color2 {
-  background-color: lightgoldenrodyellow;
-}
-.saeed_color3 {
-  background-color: lightgreen;
-}
-.saeed_color4 {
-  background-color: lightsalmon;
-}
-.saeed_color5 {
-  background-color: lightslategrey;
-}
-.saeed_color6 {
-  background-color: linen;
-}
-.saeed_color7 {
-  background-color: moccasin;
-}
-.saeed_color8 {
-  background-color: oldlace;
-}
-.saeed_color9 {
-  background-color: olive;
-}
-.saeed_color10 {
-  background-color: palevioletred;
-}
 /* Animations */
 
 @keyframes saeed-logo-spin {
@@ -106,37 +83,37 @@
 
 @keyframes saeed-bg-change {
   0% {
-    background-color: lightcyan;
+    background-color: #e34c26;
   }
 
   10% {
-    background-color: lightgoldenrodyellow;
+    background-color: #68a063;
   }
   20% {
-    background-color: lightgreen;
+    background-color: #282c34;
   }
   30% {
-    background-color: lightsalmon;
+    background-color: #f0db4f;
   }
   40% {
-    background-color: lightslategrey;
+    background-color: white;
   }
   50% {
-    background-color: linen;
+    background-color: #2965f1;
   }
   60% {
-    background-color: moccasin;
+    background-color: white;
   }
   70% {
-    background-color: oldlace;
+    background-color: #007acc;
   }
   80% {
-    background-color: olive;
+    background-color: white;
   }
   90% {
-    background-color: palevioletred;
+    background-color: #336791;
   }
   100% {
-    background-color: lightcyan;
+    background-color: #e34c26;
   }
 }
