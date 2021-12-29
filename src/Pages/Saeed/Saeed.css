@@ -27,6 +27,72 @@
   animation: saeed-logo-spin infinite 20s linear;
 }
 
+/* Color Boxes */
+.saeed__colorsContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.saeed__colorsContainer__row__1 {
+  width: 360px;
+  display: flex;
+  justify-content: center;
+}
+.saeed__colorsContainer__row__2 {
+  width: 360px;
+  display: flex;
+  justify-content: space-between;
+}
+.saeed__topRow:nth-child(2) {
+  transform: translate(0, -17px);
+}
+.saeed__topRow:nth-child(odd) {
+  transform: translate(0, 11px);
+}
+.saeed__bottomRow:nth-child(2) {
+  transform: translate(0, 25px);
+}
+.saeed__bottomRow:nth-child(odd) {
+  transform: translate(0, -11px);
+}
+.saeed__colorBox {
+  width: 83px;
+  height: 83px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.saeed_color1 {
+  background-color: lightcyan;
+}
+.saeed_color2 {
+  background-color: lightgoldenrodyellow;
+}
+.saeed_color3 {
+  background-color: lightgreen;
+}
+.saeed_color4 {
+  background-color: lightsalmon;
+}
+.saeed_color5 {
+  background-color: lightslategrey;
+}
+.saeed_color6 {
+  background-color: linen;
+}
+.saeed_color7 {
+  background-color: moccasin;
+}
+.saeed_color8 {
+  background-color: oldlace;
+}
+.saeed_color9 {
+  background-color: olive;
+}
+.saeed_color10 {
+  background-color: palevioletred;
+}
 /* Animations */
 
 @keyframes saeed-logo-spin {
