@@ -11,6 +11,7 @@ const Home = () => {
           <Link to="mahan">Mahan</Link>
           <Link to="sirvan">Sirvan</Link>
           <Link to="saeed">Saeed</Link>
+          <Link to="ehsan">Ehsan</Link>
         </div>
       </div>
     </div>
