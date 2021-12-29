@@ -20,13 +20,13 @@
   
 }
 
-li {
+.left_pane li {
   /* display: inline; */
   padding: 15px;
   list-style-type: none;
 }
 
-img {
+.sirvan_img {
   border-radius: 50%;
   margin-left: 120px;
   
