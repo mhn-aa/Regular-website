@@ -1,6 +1,76 @@
 .saeed {
+  height: 100vh;
+  position: relative;
+  animation: saeed-bg-change infinite 20s linear;
+}
+
+.saeed__link {
   text-align: center;
+  position: absolute;
+  top: 20px;
+  width: 100%;
 }
 .saeed a {
   text-decoration: none;
+}
+
+.saeed__container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.saeed__container > img {
+  border-radius: 50%;
+  height: 200px;
+  animation: saeed-logo-spin infinite 20s linear;
+}
+
+/* Animations */
+
+@keyframes saeed-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes saeed-bg-change {
+  0% {
+    background-color: lightcyan;
+  }
+
+  10% {
+    background-color: lightgoldenrodyellow;
+  }
+  20% {
+    background-color: lightgreen;
+  }
+  30% {
+    background-color: lightsalmon;
+  }
+  40% {
+    background-color: lightslategrey;
+  }
+  50% {
+    background-color: linen;
+  }
+  60% {
+    background-color: moccasin;
+  }
+  70% {
+    background-color: oldlace;
+  }
+  80% {
+    background-color: olive;
+  }
+  90% {
+    background-color: palevioletred;
+  }
+  100% {
+    background-color: lightcyan;
+  }
 }
