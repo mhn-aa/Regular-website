@@ -19,7 +19,7 @@ const Mahan = () => {
           Mahan is a multidimensional individual intrested in variety of
           subjects. Initially started coding in late Auguest 2021 and, now
           expanding his skills in different areas of the industry. Currently
-          with the aid of "ET-Devs" learning or collaborative projects.
+          with the aid of "ET-Devs" learning on collaborative projects.
         </p>
       </div>
       <hr />

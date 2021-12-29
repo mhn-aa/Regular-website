@@ -36,22 +36,10 @@
   justify-content: space-around;
 }
 
+.python,
+.react,
+.js,
+.css,
 .html {
-  height: 50px;
-}
-
-.css {
-  height: 50px;
-}
-
-.js {
-  height: 50px;
-}
-
-.python {
-  height: 50px;
-}
-
-.react {
   height: 50px;
 }
