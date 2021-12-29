@@ -5,7 +5,7 @@ import "./Saeed.css";
 const Saeed = () => {
   return (
     <div className="saeed">
-      <Link to="/">Home</Link>
+      <Link to="/">{"<- "} back</Link>
       <h1>This is Saeed's page</h1>
     </div>
   );
