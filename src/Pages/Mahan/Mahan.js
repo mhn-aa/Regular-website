@@ -7,22 +7,24 @@ const Mahan = () => {
     <div className="mahan">
       <Link to="/">Home</Link>
       <h1>This is Mahan's Page</h1>
-      <hr />
-      <img
-        className="mahanprofilepic"
-        src="https://lh3.googleusercontent.com/a-/AOh14Gix-KOYD2a06hM56DJGULQ7kDmIPHrpZZT8QnMRLw=s576-p-rw-no"
-        alt=" Mahan's Image"
-      />
-      <div className="aboutmahan">
-        <h2>About Mahan</h2>
-        <p>
-          Mahan is a multidimensional individual intrested in variety of
-          subjects. Initially started coding in late Auguest 2021 and, now
-          expanding his skills in different areas of the industry. Currently
-          with the aid of "ET-Devs" learning on collaborative projects.
-        </p>
+      {/* <hr /> */}
+      <div className="mahan__body">
+        <img
+          className="mahanprofilepic"
+          src="https://lh3.googleusercontent.com/a-/AOh14Gix-KOYD2a06hM56DJGULQ7kDmIPHrpZZT8QnMRLw=s576-p-rw-no"
+          alt=" Mahan's Image"
+        />
+        <div className="aboutmahan">
+          <h2>About Mahan</h2>
+          <p>
+            Mahan is a multidimensional individual intrested in variety of
+            subjects. Initially started coding in late Auguest 2021 and, now
+            expanding his skills in different areas of the industry. Currently
+            with the aid of "ET-Devs" learning on collaborative projects.
+          </p>
+        </div>
       </div>
-      <hr />
+      {/* <hr /> */}
       <h2>Skills</h2>
       <p>At this very moment, Mahan is more of a front-end developer.</p>
       <div className="skillsmahan">

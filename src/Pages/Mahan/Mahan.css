@@ -9,6 +9,10 @@
   margin-top: 30px;
   height: 180px;
   border-radius: 50%;
+  position: relative;
+  animation-name: mahaneffect;
+  animation-duration: 3s;
+  animation-fill-mode: backwards;
 }
 
 .aboutmahan {
@@ -17,6 +21,7 @@
   margin-top: 30px;
   margin-left: 100px;
   margin-right: 100px;
+  /* margin-bottom: 10px; */
   border: 5px solid gold;
 }
 .aboutmahan > h2 {
@@ -42,4 +47,17 @@
 .css,
 .html {
   height: 50px;
+}
+
+@keyframes mahaneffect {
+  from {
+    top: -30px;
+  }
+  to {
+    top: 0px;
+  }
+}
+
+.mahan__body {
+  background-image: linear-gradient(silver, gold, gold);
 }
