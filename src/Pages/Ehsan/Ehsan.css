@@ -1,0 +1,54 @@
+.ehsan__navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ehsan__image__round > img {
+  border-radius: 50%;
+  height: 250px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.ehsan__image__round {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100%; */
+}
+.homeButton {
+  height: 50px;
+  width: 50px;
+  color: forestgreen;
+}
+.ehsan__skills > img {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 20%;
+}
+.ehsan__skills > img:hover {
+  transform: scale(1.4);
+  transition: all 0.3s ease-in-out;
+  color: greenyellow;
+}
+
+.ehsan__skills {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 20px;
+}
+.ehsan__main__container {
+  height: 100vh;
+}
+.ehsan__about__typist {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  margin: 10px 0;
+  margin-bottom: 30px;
+}
+.ehsan__about > a {
+  text-decoration: none;
+}
