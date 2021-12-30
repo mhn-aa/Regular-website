@@ -6,7 +6,7 @@ const Saeed = () => {
   return (
     <div className="saeed">
       <div className="saeed__link">
-        <Link to="/">🔙 &#128281;</Link>
+        <Link to="/">&#128281; &#128281;</Link>
       </div>
       <div className="saeed__colorsContainer">
         <div className="saeed__colorsContainer__row__1 ">
