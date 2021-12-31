@@ -61,3 +61,10 @@
 .mahan__body {
   background-image: linear-gradient(silver, gold, gold);
 }
+
+.mahan__navbar {
+  justify-content: flex-end;
+  display: flex;
+  height: 45px;
+  background-color: silver;
+}

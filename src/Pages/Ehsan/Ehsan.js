@@ -51,11 +51,11 @@ const Ehsan = () => {
       <div className="ehsan__about">
         <Typist className="ehsan__about__typist">
           <p>
-            My name is Ehsan and I am a full-Stack developer who want to join a
+            My name is Ehsan and I am a full-Stack developer who wants to join a
             team to share and learn more skills
           </p>
           <p>
-            &nbsp;I have been inspire by &nbsp; <a href="/saeed">Saeer ET</a>
+            &nbsp;I have been inspired by &nbsp; <a href="/saeed">Saeer ET</a>
           </p>
         </Typist>
       </div>
