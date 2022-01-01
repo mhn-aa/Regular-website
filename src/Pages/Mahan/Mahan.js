@@ -1,12 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./Mahan.css";
+import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined";
 
 const Mahan = () => {
   return (
     <div className="mahan">
-      <Link to="/">Home</Link>
-      <h1>This is Mahan's Page</h1>
+      <div className="mahan__navbar">
+        <Link to="/">Home </Link>
+        {/* <HomeOutlinedIcon style={materialStyle} /> */}
+      </div>
+      {/* <h1>This is Mahan's Page</h1> */}
       {/* <hr /> */}
       <div className="mahan__body">
         <img
