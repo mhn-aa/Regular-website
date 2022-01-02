@@ -63,8 +63,52 @@
 }
 
 .mahan__navbar {
-  justify-content: flex-end;
+  justify-content: center;
   display: flex;
   height: 45px;
   background-color: silver;
+}
+
+.contact__mahan {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  /* margin-left: 100px; */
+  /* margin-right: 100px; */
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border: 6px gold;
+  color: wheat;
+}
+
+.mahan__contact__form {
+  border-radius: 15px;
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color: cadetblue;
+  /* background-image: linear-gradient(gold, silver); */
+}
+
+.mahan_full_name,
+.mahan_phone_number,
+.mahan_enter_email,
+.message,
+.mahan_formWord {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.mahan__submit__button {
+  width: 90px;
+  display: inline-block;
+  font-size: 12px;
+  margin: 9px;
+  cursor: pointer;
+  text-align: center;
+  /* text-decoration: darkgreen; */
+  outline: none;
+  color: navy;
+  background-color: gold;
+  border: none;
+  border-radius: 9px;
+  box-shadow: 0 3px silver;
 }

@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Mahan.css";
 import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined";
+import MahanContactForm from "./MahanContactForm";
 
 const Mahan = () => {
   return (
@@ -56,6 +57,8 @@ const Mahan = () => {
           alt=""
         />
       </div>
+      <hr />
+      <MahanContactForm />
       <hr />
     </div>
   );
