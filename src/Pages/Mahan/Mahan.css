@@ -81,6 +81,8 @@
 }
 
 .mahan__contact__form {
+  height: 200px;
+
   border-radius: 15px;
   margin-left: 100px;
   margin-right: 100px;

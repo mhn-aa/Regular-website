@@ -1,10 +1,13 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import "./Mahan.css";
-import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined";
 import MahanContactForm from "./MahanContactForm";
+import { useState } from "react";
 
 const Mahan = () => {
+  const [fullName, setFullName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+
   return (
     <div className="mahan">
       <div className="mahan__navbar">
@@ -58,8 +61,7 @@ const Mahan = () => {
         />
       </div>
       <hr />
-      <MahanContactForm />
-      <hr />
+      <MahanContactForm fullName={fullName} email={email} message={message} />
     </div>
   );
 };
