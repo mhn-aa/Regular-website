@@ -1,11 +1,9 @@
 .mahan {
-  /* display: flex; */
   justify-content: center;
   align-items: center;
   text-align: center;
 }
 .mahanprofilepic {
-  /* margin-right: 1000px; */
   margin-top: 30px;
   height: 180px;
   border-radius: 50%;
@@ -21,7 +19,6 @@
   margin-top: 30px;
   margin-left: 100px;
   margin-right: 100px;
-  /* margin-bottom: 10px; */
   border: 5px solid gold;
 }
 .aboutmahan > h2 {
@@ -63,54 +60,48 @@
 }
 
 .mahan__navbar {
-  justify-content: center;
   display: flex;
+  justify-content: center;
   height: 45px;
   background-color: silver;
 }
 
 .contact__mahan {
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-  /* margin-left: 100px; */
-  /* margin-right: 100px; */
+  padding-top: 20px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  border: 6px gold;
   color: wheat;
 }
-
 .mahan__contact__form {
-  height: 200px;
-
-  border-radius: 15px;
-  margin-left: 100px;
-  margin-right: 100px;
-  background-color: cadetblue;
-  /* background-image: linear-gradient(gold, silver); */
+  margin-left: 210px;
+  margin-right: 210px;
+  background-image: linear-gradient(blue, navy);
+  border-radius: 30px;
 }
 
 .mahan_full_name,
-.mahan_phone_number,
 .mahan_enter_email,
-.message,
 .mahan_formWord {
+  height: 30px;
+  margin: 5px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.mahan_message {
+  width: 250px;
+  height: 60px;
 }
 
 .mahan__submit__button {
   width: 90px;
   display: inline-block;
   font-size: 12px;
-  margin: 9px;
+  margin-bottom: 9px;
   cursor: pointer;
   text-align: center;
-  /* text-decoration: darkgreen; */
   outline: none;
-  color: navy;
   background-color: gold;
   border: none;
-  border-radius: 9px;
+  border-radius: 3px;
   box-shadow: 0 3px silver;
 }

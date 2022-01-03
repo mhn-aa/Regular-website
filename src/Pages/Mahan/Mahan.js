@@ -7,15 +7,16 @@ const Mahan = () => {
   const [fullName, setFullName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  const submitHandler = (event) => {
+    event.preventDefault();
+    console.log("", fullName, "", email, "", message);
+  };
 
   return (
     <div className="mahan">
       <div className="mahan__navbar">
         <Link to="/">Home </Link>
-        {/* <HomeOutlinedIcon style={materialStyle} /> */}
       </div>
-      {/* <h1>This is Mahan's Page</h1> */}
-      {/* <hr /> */}
       <div className="mahan__body">
         <img
           className="mahanprofilepic"
@@ -61,7 +62,15 @@ const Mahan = () => {
         />
       </div>
       <hr />
-      <MahanContactForm fullName={fullName} email={email} message={message} />
+      <MahanContactForm
+        fullName={fullName}
+        email={email}
+        message={message}
+        submitHandler={submitHandler}
+        setFullName={setFullName}
+        setEmail={setEmail}
+        setMessage={setMessage}
+      />
     </div>
   );
 };
