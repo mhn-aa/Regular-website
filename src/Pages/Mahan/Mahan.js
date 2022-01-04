@@ -8,8 +8,16 @@ const Mahan = () => {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
   const submitHandler = (event) => {
-    event.preventDefault();
+    event.preventDefault(1);
     console.log("", fullName, "", email, "", message);
+
+    let btnClear = document.querySelector("button");
+    let inputs = document.querySelectorAll("input");
+    let textareasClear = document.querySelectorAll("textarea");
+    btnClear.addEventListener("click", () => {
+      inputs.forEach((input) => (input.value = ""));
+      textareasClear.forEach((textarea) => (textarea.value = ""));
+    });
   };
 
   return (
