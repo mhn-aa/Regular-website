@@ -8,8 +8,8 @@ const MahanContactForm = ({
   fullName,
 }) => {
   return (
-    <div className="mahan__contact__form">
-      <h3 className="contact__mahan">"Contact Mahan"</h3>
+    <div className="div_mahan_form">
+      <h3 className="contact__mahan">Contact Mahan</h3>
       <form className="mahan_form_main" onSubmit={submitHandler}>
         <div>
           <input
