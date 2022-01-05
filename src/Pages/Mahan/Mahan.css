@@ -1,7 +1,23 @@
 .mahan {
+  background-image: linear-gradient(gold, silver, silver, black);
+}
+.mahan__navbar {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
   justify-content: center;
-  align-items: center;
-  text-align: center;
+  height: 45px;
+  background-color: silver;
+}
+.mahan__body {
+  background-image: linear-gradient(silver, gold, gold);
+}
+@keyframes mahaneffect {
+  from {
+    top: -30px;
+  }
+  to {
+    top: 0px;
+  }
 }
 .mahanprofilepic {
   margin-top: 30px;
@@ -12,30 +28,47 @@
   animation-duration: 3s;
   animation-fill-mode: backwards;
 }
+.mahan__body__profilepic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .aboutmahan {
-  background-color: gold;
   border-radius: 30px;
   margin-top: 30px;
-  margin-left: 100px;
-  margin-right: 100px;
-  border: 5px solid gold;
-}
-.aboutmahan > h2 {
+  margin-left: 30px;
+  margin-right: 30px;
+  background-image: conic-gradient(
+    black 0deg,
+    red 90deg,
+    red 90deg,
+    black 180deg,
+    black 180deg,
+    red 270deg,
+    red 270deg,
+    black 360deg
+  );
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  text-align: center;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  color: royalblue;
+  color: greenyellow;
 }
-
-.aboutmahan > p {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  color: navy;
+.p_aboutmahan {
+  margin: 10px;
 }
 
 .skillsmahan {
+  background-image: linear-gradient(gold, lightgray);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  align-content: center;
 }
 
 .python,
@@ -43,46 +76,34 @@
 .js,
 .css,
 .html {
-  height: 50px;
-}
-
-@keyframes mahaneffect {
-  from {
-    top: -30px;
-  }
-  to {
-    top: 0px;
-  }
-}
-
-.mahan__body {
-  background-image: linear-gradient(silver, gold, gold);
-}
-
-.mahan__navbar {
-  display: flex;
-  justify-content: center;
-  height: 45px;
-  background-color: silver;
+  height: 90px;
+  border-radius: 9px;
+  margin: 10px;
 }
 
 .contact__mahan {
-  padding-top: 20px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
   color: wheat;
+  display: flex;
+  justify-content: center;
 }
-.mahan__contact__form {
-  margin-left: 210px;
-  margin-right: 210px;
-  background-image: linear-gradient(blue, navy);
-  border-radius: 30px;
+
+.mahan_form_main {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  align-content: center;
 }
 
 .mahan_full_name,
 .mahan_enter_email,
 .mahan_formWord {
-  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin: 5px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;

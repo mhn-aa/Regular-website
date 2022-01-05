@@ -7,9 +7,13 @@ const Mahan = () => {
   const [fullName, setFullName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+
   const submitHandler = (event) => {
     event.preventDefault();
     console.log("", fullName, "", email, "", message);
+    setFullName("");
+    setEmail("");
+    setMessage("");
   };
 
   return (
@@ -18,25 +22,25 @@ const Mahan = () => {
         <Link to="/">Home </Link>
       </div>
       <div className="mahan__body">
-        <img
-          className="mahanprofilepic"
-          src="https://lh3.googleusercontent.com/a-/AOh14Gix-KOYD2a06hM56DJGULQ7kDmIPHrpZZT8QnMRLw=s576-p-rw-no"
-          alt=" Mahan's Image"
-        />
+        <div className="mahan__body__profilepic">
+          <img
+            className="mahanprofilepic"
+            src="https://lh3.googleusercontent.com/a-/AOh14Gix-KOYD2a06hM56DJGULQ7kDmIPHrpZZT8QnMRLw=s576-p-rw-no"
+            alt=" Mahan's Image"
+          />
+        </div>
         <div className="aboutmahan">
-          <h2>About Mahan</h2>
-          <p>
+          <h2 className="h2_aboutmahan">About Mahan</h2>
+          <p className="p_aboutmahan">
             Mahan is a multidimensional individual intrested in variety of
             subjects. Initially started coding in late Auguest 2021 and, now
             expanding his skills in different areas of the industry. Currently
-            with the aid of "ET-Devs" learning on collaborative projects.
+            with the aid of "Web-Devs" learning on collaborative projects.
           </p>
         </div>
       </div>
-      {/* <hr /> */}
-      <h2>Skills</h2>
-      <p>At this very moment, Mahan is more of a front-end developer.</p>
       <div className="skillsmahan">
+        <p className=""></p>
         <img
           className="html"
           src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"
@@ -61,7 +65,7 @@ const Mahan = () => {
           alt=""
         />
       </div>
-      <hr />
+
       <MahanContactForm
         fullName={fullName}
         email={email}
@@ -71,6 +75,7 @@ const Mahan = () => {
         setEmail={setEmail}
         setMessage={setMessage}
       />
+      <hr />
     </div>
   );
 };

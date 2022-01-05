@@ -3,13 +3,17 @@ const MahanContactForm = ({
   setFullName,
   setEmail,
   setMessage,
+  email,
+  message,
+  fullName,
 }) => {
   return (
-    <div className="mahan__contact__form">
-      <h3 className="contact__mahan">"Contact Mahan"</h3>
+    <div className="div_mahan_form">
+      <h3 className="contact__mahan">Contact Mahan</h3>
       <form className="mahan_form_main" onSubmit={submitHandler}>
         <div>
           <input
+            value={fullName}
             className="mahan_full_name"
             type="text"
             placeholder="Full Name"
@@ -18,6 +22,7 @@ const MahanContactForm = ({
         </div>
         <div>
           <input
+            value={email}
             className="mahan_enter_email"
             type="text"
             placeholder="E-Mail"
@@ -26,6 +31,7 @@ const MahanContactForm = ({
         </div>
         <div>
           <textarea
+            value={message}
             className="mahan_message"
             type="text"
             placeholder="Message"
